@@ -1,0 +1,24 @@
+# Git comandos
+
+- **git init** : inicializa o repositório
+- **git add nome-do-arquivo** : adiciona aquele arquivo que está no repositório para o git monitorar/para área de staging
+- **git add .**  : adiciona todos os arquivos sem precisar escrever o nome de cada um deles
+- **git commit -m ' coloque mensagem aqui'** : adiciona aquele arquivo na linha do tempo,grava as mudanças feitas nos arquivos no repositório local
+- **git branch -M 'main'** : muda a branch de master para main
+- **git remote add origin link-repositório** : cria a conexão entre o repositório local e o remoto e só é utilizado uma única vez
+- **git push -u origin main** : manda os commits do repositório local para o repositório remoto,que no caso é o github. **Atenção: O '-u' só precisa ser colocado na primeira vez,nas outras vezes só use git push origin main ou git push**
+- **git status** : mostra o estado/status atual do repositório dentro da branch atual
+- **git log** : exibe histórico de commits
+- **git show** : exibe com detalhes todas as informações do último commit ocorrido. Ou seja,o que foi alterado ou adicionado
+- **git merge nome-branch** : junção de branches. Junta a branch atual com a nome-branch
+- **git branch nome-branch** : cria uma nova branch
+- **git checkout nome-branch** : sai da branch atual e vai para branch escolhida em nome-branch
+- **git branch -a** : exibe uma lista de todas as branchs locais e remotas
+- **git branch -d nome-branch** : deleta a branch
+- **git branch** : lista as branches
+- **git checkout -b nome-branch** : sai da branch atual e cria uma nova branch, já sendo direcionado imediatamente para ela
+- **git clone link-repositório** : copia um repositório remoto para um repositório local
+- **git pull** : atualiza alguma mudança ocorrida no repositório remoto no repositório local
+- **git remote -v :** mostra a url de repositório remoto
+- **git reset :** reseta os arquivos depois da commit
+- **git commit -am 'mensagem' :** git add + git commit
